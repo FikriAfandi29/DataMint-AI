@@ -1,0 +1,37 @@
+{
+    "projectId": "6a1d855e00147768df88",
+    "projectName": "DataMiint AI",
+    "functions": [
+        {
+            "name": "query-processor",
+            "path": "functions/query-processor",
+            "runtime": "node-18.0",
+            "entrypoint": "index.ts",
+            "vars": {
+                "APPWRITE_ENDPOINT": "https://sgp.cloud.appwrite.io/v1",
+                "APPWRITE_PROJECT_ID": "6a1d855e00147768df88",
+                "APPWRITE_DATABASE_ID": "6a1e2f910004t14c7d952",
+                "APPWRITE_QUERIES_COLLECTION": "saved_queries"
+            }
+        },
+        {
+            "name": "datasets",
+            "path": "functions/datasets",
+            "runtime": "node-18.0",
+            "entrypoint": "index.ts",
+            "vars": {
+                "APPWRITE_ENDPOINT": "https://sgp.cloud.appwrite.io/v1",
+                "APPWRITE_PROJECT_ID": "6a1d855e00147768df88",
+                "APPWRITE_DATABASE_ID": "6a1e2f910004t14c7d952",
+                "APPWRITE_DATASETS_COLLECTION": "datasets"
+            }
+        },
+        {
+            "name": "config",
+            "path": "functions/config",
+            "runtime": "node-18.0",
+            "entrypoint": "index.ts"
+        }
+    ],
+    "version": "1.5.0"
+}

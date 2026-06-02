@@ -1,0 +1,6 @@
+[2026-06-02T01:40:37.901Z] Query: "fetch meta stock price data for 2023 from yahoofinance" - Error: Error: Python process exited with code 1. Error: OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+
+    at ChildProcess.<anonymous> (C:\Users\vokal\Downloads\DataMint AI\server.ts:226:16)
+    at ChildProcess.emit (node:events:518:28)
+    at maybeClose (node:internal/child_process:1101:16)
+    at ChildProcess._handle.onexit (node:internal/child_process:304:5)
